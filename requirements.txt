@@ -1,0 +1,5 @@
+fastmcp
+langgraph
+langchain-mcp-adapters
+networkx
+python-dotenv
