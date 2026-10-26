@@ -7,11 +7,11 @@ mock_carriers = {
 }
 
 mock_locations = {
-    "Washington, D.C.": {"Boston": 920, "Charlotte": 297, "Atlanta": 530},
-    "Boston": {"Charlotte": 630, "Atlanta": 283},
-    "Charlotte": {"Atlanta": 450}
+    "Washington, D.C.": {"Raleigh": 278, "Roanoke": 240, "Charlotte": 399},
+    "Raleigh": {"Roanoke": 157, "Charlotte": 170},
+    "Roanoke": {"Charlotte": 196}
 }
 
 mock_disruptions = [
-    {"location": "Charlotte", "delay_hours": 8, "reason": "Bridge Closure due to structural integrity check"}
+    {"location": "Raleigh", "delay_hours": 8, "reason": "Interstate Construction causing lane closures"},
 ]
